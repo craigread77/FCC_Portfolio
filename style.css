@@ -5,6 +5,8 @@
     
 }
 
+/*Header */
+
 #company-logo {
     width: 50px;
     height: auto;
@@ -32,8 +34,6 @@ header {
     justify-content: flex-end;
     align-items: center;
     
-    
-    
 }
 
 #nav-links li {
@@ -55,6 +55,8 @@ header {
     background-color: rgb(199, 199, 199);
 }
 
+/* Welcome Section */
+
 #welcome-section {
     height: 100vh;
     width: 100%;
@@ -63,6 +65,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: solid 10px rgb(43, 43, 43); 
 
     
 }
@@ -85,3 +88,48 @@ header {
     text-decoration: none;
     color: inherit;
 }
+
+/* Project Section */
+#projects {
+    width: 100vw;
+    background-color: rgb(221, 221, 221);
+}
+
+
+#projects-header {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap: 50px;
+    
+}
+
+.grid-item {
+    border: 6px solid rgb(85, 85, 85);
+    border-radius: 10px;
+    background-color: rgb(80, 80, 80);
+}
+
+.grid-item img {
+    width: 35vw;
+    height: 35vw;
+    border-radius: 6px;
+}
+
+.grid-item h4 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 18px;
+    color: rgb(216, 216, 216);
+}
+
