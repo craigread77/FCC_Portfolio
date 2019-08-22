@@ -109,7 +109,7 @@ header {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
-    grid-gap: 50px;
+    grid-gap: 6vw;
     
 }
 
@@ -117,6 +117,7 @@ header {
     border: 6px solid rgb(85, 85, 85);
     border-radius: 10px;
     background-color: rgb(80, 80, 80);
+    width: 35vw;
 }
 
 .grid-item img {
