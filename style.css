@@ -64,9 +64,9 @@ header {
 
 #welcome-section {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-color: rgb(196, 196, 196);
-    background-image: url("texture-1893783_1920.jpg");
+    background-image: url("https://i.imgur.com/mrosM46.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,7 +149,7 @@ header {
 
 /* Contact Section */
 #contact-section {
-    background-image: url("black-1072366_1920.jpg");
+    background-image: url("https://i.imgur.com/p8oAzly.jpg");
     background-color: rgb(43, 43, 43);
     height: 90vh;
     display: flex;
@@ -190,5 +190,21 @@ header {
     text-align: center;
     background-color: rgb(43, 43, 43);
     color: rgb(173, 173, 173);
+}
+
+/* Media Query */
+
+@media (max-width: 678px) {
+    #welcome-header {
+        font-size: 50px;
+    }
+
+    #projects-header {
+        font-size: 35px;
+    }
+
+    #contacts-header {
+        font-size: 35px;
+    }
 }
 
