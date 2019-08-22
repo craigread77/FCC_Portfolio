@@ -2,7 +2,12 @@
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /*Header */
@@ -93,23 +98,31 @@ header {
 #projects {
     width: 100vw;
     background-color: rgb(221, 221, 221);
+    padding-bottom: 14vh;
+    border-bottom: solid 10px rgb(43, 43, 43); 
 }
 
 
 #projects-header {
     font-size: 40px;
     text-align: center;
-    padding-top: 70px;
-    padding-bottom: 60px;
+    padding-top: 18vh;
+    padding-bottom: 3vh;
     text-decoration: underline;
     font-weight: bold;
 }
 
+#projects-subheader {
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
     justify-content: center;
-    grid-gap: 6vw;
+    grid-gap: 1vw;
     
 }
 
@@ -117,12 +130,12 @@ header {
     border: 6px solid rgb(85, 85, 85);
     border-radius: 10px;
     background-color: rgb(80, 80, 80);
-    width: 35vw;
+    width: 20vw;
 }
 
 .grid-item img {
-    width: 35vw;
-    height: 35vw;
+    width: 20vw;
+    height: 20vw;
     border-radius: 6px;
 }
 
@@ -132,5 +145,50 @@ header {
     padding-top: 5px;
     font-size: 18px;
     color: rgb(216, 216, 216);
+}
+
+/* Contact Section */
+#contact-section {
+    background-image: url("black-1072366_1920.jpg");
+    background-color: rgb(43, 43, 43);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#contact-header {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-socialmedia {
+    width: 3vw;
+    height: 3vw;
+    padding: 1vw;
+    border-radius: 50%;
+}
+
+#contact-container {
+    border: double 10px rgb(224, 224, 224);
+    border-radius: 15px;
+    background-color: rgb(139, 139, 139);
+    padding: 15px;
+}
+
+/* Dislclaimer Section */
+
+#disclaimer * {
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    color: rgb(173, 173, 173);
 }
 
